@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+#top {
+	padding-top: 2%;
+	border-top: 1px solid rgb(224, 206, 146);
+	border-bottom: 1px solid rgb(224, 206, 146);
+	padding-bottom: 2%;
+}
+
+header {
+	display:flex
+}
+
+.logo {
+	width: 320px;
+	height: 80px;
+}
+
+header div p {
+	text-transform: uppercase;
+}
+
+header div {
+	border-left: 1px solid black;
+	padding-left: 2%;
+
+}
+
+body {
+	color:rgb(0, 0, 0);
+}
+
+body nav p {
+	position: fixed right;
+	display: inline;
+	padding-right: 5%;
+}
+
+#fillet {
+	width: 50%;
+	height: 50%;
+}
+
+figure {
+	margin-left: auto;  
+	margin-right: auto;   
+	text-align: center;
+}
+
+footer {
+	padding-top: 2%;
+	padding-bottom: 1.5%;
+	text-align: center;
+	font-size: 80%;
+	background-color: rgb(224, 206, 146);
+}
+
+.footer p {
+	display: inline;
+	padding-right: 1%;
+	padding-left: 1%;
+	color: blue;
+	border-right: 1px solid black ;
+}
+
+.footer {
+	padding-top: 1%;
+}
+
+.footer .lastFooter {
+	border-right: 0px solid black ;
+}
